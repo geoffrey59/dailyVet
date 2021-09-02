@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DailyVet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="CONNEXION">CONNEXION</string>
+    <string name="INSCRIPTION">INSCRIPTION</string>
+    <string name="editUserName">nom d\'utilisateur</string>
+    <string name="editMailInscription">e-mail</string>
+    <string name="editPasswordInscription">mot de passe</string>
+    <string name="editPhoneInscription">numéro de téléphone</string>
+    <string name="jeinscrit">Je m\'inscris</string>
+    <string name="textusername">Votre nom d\'utilisateur</string>
+    <string name="textemail">Votre adresse e-mail</string>
+    <string name="textpassword">Votre mot de passe</string>
+    <string name="texttel">Votre numéro de teléphone</string>
+    <string name="edCode">Code reçu par SMS</string>
+    <string name="title_activity_snap">SnapActivity</string>
+    <string name="changeUserName">Modifier le nom d\'utilisateur ici</string>
+    <string name="changeEmail">Modifier votre adresse mail  ici</string>
+    <string name="changePhone">Modifier le numéro ici</string>
+    <string name="changePassword">Modifier le mot de passe ici</string>
+    <string name="profil">Modifier votre profil utilisateur</string>
+    <string name="user">Nom utilisateur</string>
+    <string name="email">E-mail</string>
+    <string name="mdp">Mot de passe </string>
+    <string name="phone">Téléphone </string>
+    <string name="valider">Valider</string>
+    <string name="textvet">Mes vêtements</string>
+    <string name="catname">catname</string>
+    <string name="vetname">vetname </string>
+    <string name="textcat">Catégorie </string>
+    <string name="returnUser">Retour </string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

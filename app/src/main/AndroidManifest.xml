@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.afc.dailyvet">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DailyVet">
+        <activity android:name=".categorie.CategorieActivity"></activity>
+        <activity android:name=".vetement.VetementActivity"></activity>
+        <activity android:name=".profil.ProfilActivity" />
+        <activity android:name=".profil.EmailActivity" />
+        <activity android:name=".profil.PhoneActivity" />
+        <activity android:name=".profil.PasswordActivity" />
+        <activity android:name=".profil.UtilisateurActivity" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+
+
+        <activity android:name=".menu.ShowCaptureActivity" />
+        <activity android:name=".menu.PrincipalActivity" />
+        <activity android:name=".inscription.InscriptionActivity" />
+        <activity android:name=".connexion.ConnexionActivity" />
+        <activity android:name=".accueil.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

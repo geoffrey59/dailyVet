@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".profil.UtilisateurActivity">
+
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/backleft"
+            android:elevation="06dp"
+            android:translationZ="1dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="238dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo_dailyvet"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editchangeUser"
+
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/shape_input"
+            android:hint="@string/changeUserName"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:textColor="@color/purple_700"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonValiderUser"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/shape_input"
+            android:text="@string/valider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editchangeUser" />
+
+        <Button
+            android:id="@+id/buttonReturnUser"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/shape_input"
+            android:text="@string/returnUser"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonValiderUser" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

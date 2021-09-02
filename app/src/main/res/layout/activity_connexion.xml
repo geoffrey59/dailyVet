@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    app:layoutDescription="@xml/activity_connexion_scene"
+    tools:context=".connexion.ConnexionActivity">
+
+
+    <EditText
+        android:id="@+id/connexionMail"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/shape_input"
+        android:hint="@string/editMailInscription"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/connexionPassword"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/shape_input"
+        android:hint="@string/editPasswordInscription"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connexionMail" />
+
+
+    <TextView
+        android:id="@+id/textemail"
+        android:layout_width="292dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/textemail"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textpassword"
+        android:layout_width="292dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/textpassword"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connexionMail" />
+
+    <EditText
+        android:id="@+id/edCode"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/shape_input"
+        android:hint="@string/edCode"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/buttonSeConnecter"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/shape_input"
+        android:text="@string/CONNEXION"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connexionPassword" />
+
+    <Button
+        android:id="@+id/buttonCode"
+        android:layout_width="280dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/shape_input"
+        android:text="@string/CONNEXION"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connexionPassword" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="238dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_dailyvet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "610724325699",
+    "project_id": "dailyvet-4e75b",
+    "storage_bucket": "dailyvet-4e75b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610724325699:android:65cfc21dd4c87e404ee7f6",
+        "android_client_info": {
+          "package_name": "fr.afc.dailyvet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610724325699-95tmktvvjtvfbumdpgftkn0kf8poinva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.afc.dailyvet",
+            "certificate_hash": "674eba797f8c90e4003ee4f82e45a77f59b53d14"
+          }
+        },
+        {
+          "client_id": "610724325699-dkiq4qsbrti2clhefhvtugmue63uv58j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANecsTyaDGTEkFFJIn_kvjEM3vgqDXl8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610724325699-dkiq4qsbrti2clhefhvtugmue63uv58j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

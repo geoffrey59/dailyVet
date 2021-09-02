@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".profil.EmailActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="238dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/logo_dailyvet"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="44dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/editchangeMail"
+
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:background="@drawable/shape_input"
+            android:hint="@string/changeEmail"
+            android:inputType="textEmailAddress"
+            android:paddingStart="10dp"
+            android:textColor="@color/purple_700"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonValiderEmail"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="376dp"
+            android:background="@drawable/shape_input"
+            android:text="@string/valider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonReturnEmail"
+            android:layout_width="280dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="536dp"
+            android:background="@drawable/shape_input"
+            android:text="@string/returnUser"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+
+
